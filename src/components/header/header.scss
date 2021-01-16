@@ -1,0 +1,24 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-weight: var(--fontWeight-semibold);
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+}
+
+.site-header nav {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 3rem;
+}
+
+.site-header nav li {
+  padding: 2rem 0;
+  justify-content: center;
+  display: flex;
+}

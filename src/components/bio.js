@@ -6,31 +6,32 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
+import Hobbies from "./hobbies/hobbies"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50, quality: 95) {
-            ...GatsbyImageSharpFixed
+      query BioQuery {
+          avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+              childImageSharp {
+                  fixed(width: 50, height: 50, quality: 95) {
+                      ...GatsbyImageSharpFixed
+                  }
+              }
           }
-        }
+          site {
+              siteMetadata {
+                  author {
+                      name
+                      summary
+                  }
+                  social {
+                      twitter
+                  }
+              }
+          }
       }
-      site {
-        siteMetadata {
-          author {
-            name
-            summary
-          }
-          social {
-            twitter
-          }
-        }
-      }
-    }
   `)
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
@@ -47,18 +48,17 @@ const Bio = () => {
           alt={author?.name || ``}
           className="bio-avatar"
           imgStyle={{
-            borderRadius: `50%`,
+            borderRadius: `50%`
           }}
         />
       )}
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
-        </p>
+        <>
+          <p>
+            Hi, I'm <b>Jack</b> 👋<br />
+            <Hobbies />
+          </p>
+        </>
       )}
     </div>
   )

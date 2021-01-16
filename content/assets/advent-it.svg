@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="39" viewBox="0 0 40 39">
+  <defs>
+    <polygon id="advent-it-a" points="0 0 40.721 0 40.721 39.028 0 39.028"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-1)">
+    <mask id="advent-it-b" fill="#fff">
+      <use xlink:href="#advent-it-a"/>
+    </mask>
+    <path fill="#FFF" d="M40.7211,37.7714 C31.6451,40.2254 29.8541,39.4834 25.9361,31.9654 C24.3421,28.9064 22.6721,23.968 20.5771,20 C18.3101,24.255 16.7363094,29.5049627 14.7891,33.0614 C12.4004347,37.4241247 9.6724667,40.6790615 1.17865053,37.7714 C8.09665053,24.7614 13.4981,13.3134 20.5771,0.0004 C27.6111,13.1884 34.1431,25.4374 40.7211,37.7714 Z" mask="url(#advent-it-b)"/>
+  </g>
+</svg>
