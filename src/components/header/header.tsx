@@ -5,7 +5,7 @@ import "./header.scss"
 function Header() {
   return (
     <header className="site-header">
-      <div>
+      <div className="site-header-contact">
         hello@jackallen.me
       </div>
       <nav>

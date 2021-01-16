@@ -17,6 +17,11 @@
     letter-spacing: -0.025em;
     font-weight: var(--fontWeight-bold);
     color: var(--color-heading);
+
+    @media (max-width: 680px) {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
   }
 
   &-description {

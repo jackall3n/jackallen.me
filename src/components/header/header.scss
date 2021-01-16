@@ -15,6 +15,16 @@
   display: grid;
   grid-auto-flow: column;
   grid-gap: 3rem;
+
+  @media (max-width: 680px) {
+    display: none;
+  }
+}
+
+.site-header-contact {
+  padding: 2rem 0;
+  justify-content: center;
+  display: flex;
 }
 
 .site-header nav li {
