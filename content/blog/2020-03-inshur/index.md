@@ -2,6 +2,7 @@
 title: Inshur
 slug: /inshur/
 position: Development Consultant
+date: "2020-03-20T00:00:00"
 start: "2020-03-20T00:00:00"
 keywords: [React, Typescript, GraphQL, Kubernetes, Terraform, Python]
 ---
