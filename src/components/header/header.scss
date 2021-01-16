@@ -21,6 +21,14 @@
   }
 }
 
+.site-header .mobile {
+  display: block;
+
+  @media (min-width: 681px) {
+    display: none;
+  }
+}
+
 .site-header-contact {
   padding: 2rem 0;
   justify-content: center;

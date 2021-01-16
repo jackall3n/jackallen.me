@@ -1,4 +1,5 @@
 import React from "react"
+import Burger from "../../../content/assets/burger-icon.svg"
 
 import "./header.scss"
 
@@ -14,6 +15,9 @@ function Header() {
         <li>Services</li>
         <li>Contact</li>
       </nav>
+      <div className="mobile">
+        <Burger />
+      </div>
     </header>
   )
 }
