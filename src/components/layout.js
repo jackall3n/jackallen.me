@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
       <div className={isRootPath ? "" : "global-wrapper"} data-is-root-path={isRootPath}>
         <main>{children}</main>
         <div className="global-wrapper">
-          <footer>
+          <footer className="global-footer">
             © {new Date().getFullYear()}, Built with ❤️
           </footer>
         </div>
