@@ -1,4 +1,4 @@
-import React, { useMemo } from "react"
+import React from "react"
 
 import "./home-bio.scss"
 import { graphql, useStaticQuery } from "gatsby"
@@ -32,12 +32,12 @@ function HomeBio() {
       />
       <div className="home-bio-hi">Hi, I'm Jack 👋</div>
       <div className="home-bio-summary">Building <span className="highlight">digital<br /> products</span>, brands,
-        and<br /> experience.
+        and<br /> experiences.
       </div>
       <div className="home-bio-description">
         <Hobbies />
       </div>
-      <button>SAY HELLO <span>🤙</span></button>
+      <button onClick={() => window.open('mailto:me@jackallen.me?subject=Hey!')}>SAY HELLO <span>🤙</span></button>
     </div>
   )
 }

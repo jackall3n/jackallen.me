@@ -11,6 +11,4 @@ query WelcomeToRunThings {
     message
 }
 ```
-I was recruited at Inshur with the task of rebuilding their front end customer application. 
-
-* Helped grow a brand-new team of front end developers
+Run Things are a charity dedicated to helping the community to have a healthy mind and body. I joined during the UK lockdown to build an application that serve as a means for people to keep active and connected to people in the community.

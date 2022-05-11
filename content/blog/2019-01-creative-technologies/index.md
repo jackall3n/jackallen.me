@@ -4,22 +4,18 @@ slug: /creative-technologies/
 start: "2019-01-01T00:00:00"
 end: "2020-03-20T00:00:00"
 position: Development Consultant
-keywords: [React, Typescript, SAFe, Selenium]
+keywords: [React, Typescript, Docker, SAFe, Selenium]
 ---
 
 ```typescript
 const message: string = "Welcome to Creative Technologies!";
 ```
 
-I joined Creative Technologies Limited as part of their React front end team. Our teams responsibilities were to develop a greenfield reporting application used by clients within Schroders and Lloyds.
+As a partner of both Schroders and Lloyds, Creative Technologies is responsible for supplying the asset management software used by both their financial advisors and clients. I was brought in to assist in the construction of an integrated word processing application used to generate financial reports.
+After adopting the scaled agile framework SAFe, I was given the opportunity to attend collaborative sessions such as I&A and P.I planning. There I was able to feed into the longer term roadmap and help prioritise with the wider organisation.
 
-The company migrated to working within the scaled agile framework **SAFe**, which provided opportunity to feed into the longer term roadmap and help prioritise with the wider organisation.
-
-Key responsibilities/achievements:
-
-* Building a project from the ground up with the latest coding standards.
-* Providing a suite of unit tests with code coverage of 100%.
-* Composed an end-to-end suite of automated tests using Cucumber and Selenium.
-* Mentoring developers through their transition from Javascript to Typescript.
-
-The methodologies adopted as part of the SAFe migration include PI planning, Retrospectives, I&A sessions, Weekly demos, Backlog refinements and Stand-ups.
+Key Achievements/Responsibilities:
+* Assisting the in construction of a bespoke word processor.
+* Developing a suite of unit tests covering more than 90% of the codebase.
+* Introducing a wide range of automated tests using Cucumber and Selenium.
+* Mentoring developers through the transition to Typescript for existing JavaScript projects.

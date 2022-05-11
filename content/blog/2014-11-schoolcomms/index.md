@@ -12,15 +12,13 @@ func greeting() -> String {
     return "Welcome to Schoolcomms!"
 }
 ```
-I joined Schoolcomms (previously Advent IT) as a Full Stack Developer. Immediately I was opened up to many new technologies and platforms, working on areas including Web, Mobile, Desktop, Services and Databases. As well as continuous learning outside of work, learning hours were available each week which I used to keep my skills as current as possible and scope out any potential technologies for future projects.
+At Schoolcomms I was part of a team of engineers responsible for building a portal used by teachers, parents and students. The applications involved were built natively for web, iOS, Android and Windows.
 
-Main responsibilities and accomplishments include:
-
-* Worked as Technical Project Lead which involved leading the developers on a project, managing resources and producing project burndowns.
-* Working on a range of data sensitive and complex projects, for example I was the sole developer implementing direct debit payments into an existing payments system that handles over 2 million pounds every fortnight.
-* Running early visibility demos to the business.
-* Re-implemented a web application, used by parents of over 3000 schools, from ASPX to MVC.
-* Designed and built an Apple Watch application in my own time to further broaden my knowledge in iOS, which is now used by students and parents across the UK.
-* Introduced Angular as the main JS framework which is now used in all new projects.
-* Led technical tests with interviewees and provided feedback to management.
-* Created many applications that continue to improve productivity throughout the business, which gave me the opportunity to put into practice new technologies.
+Key Achievements/Responsibilities:
+* Worked as a technical lead requiring me to manage workload and offer confident and reliable estimates at each stage of the projects.
+* Implemented a direct debit payments system used to process over £4m a month.
+* Running business-orientated product demos of new features and applications.
+* Rebuilt an application used by thousands of parents at over 3000 schools.
+* Designed and built an Apple Watch application outside of work, that would be used by thousands of students across the UK.
+* Aided in interviewing candidates to join the development team.
+* Created new applications used to boost productivity that became an essential part of colleagues day-to-day.

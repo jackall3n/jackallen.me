@@ -13,13 +13,11 @@ def greeting():
     return messsage
 ```
 
-I joined Fidelity International as a contractor for the Front-End JavaScript Applications Team. I was given complete ownership of a new project, and was set the task of developing a product from the ground up that could be completely controlled via a Python Django CMS. Being given the reigns of what Front-End architecture I could use, I opted for React & Redux.
+I joined Fidelity as a technical lead for the development of a suite of multi-lingual & configurable investment calculators, to be used in their international marketing site.
+The company worked using the agile framework, implementing daily stand-ups, retrospectives and weekly show & tell sessions.
 
-Additionally to developing products, I took on responsibilities such as:
-
-* Interviewing many new candidates to join our team.
-* Worked closely with project managers to give reliable updates on active projects and backlog items.
-* Mentored other developers through their on-boarding of React/Redux, becoming a go-to guy for help.
-* In order to keep up with the high demand of work, I worked with the Python Django CMS running on Docker to help to ensure we as a team met our targets.
-
-We worked using Scrum/Agile methodologies with Daily Stand-ups and retrospectives to ensure constant improvement in the team.
+Key Achievements/Responsibilities:
+* Creating fully configurable investment calculators used by thousands of customers worldwide.
+* Interviewing development and test candidates to join the front end team.
+* Mentoring developers across all teams through their adoption of React & Redux.
+* Worked closely with managers to help organise backlog items and prioritise work.

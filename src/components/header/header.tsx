@@ -1,11 +1,14 @@
 import React from "react"
-import Burger from "../../../content/assets/burger-icon.svg"
 
 import "./header.scss"
+import { BurgerIcon } from "../Icons/BurgerIcon"
 
 function Header() {
   return (
     <header className="site-header">
+      <div>
+        <img src="/assets/logo.png"/>
+      </div>
       <div className="site-header-contact">
         hello@jackallen.me
       </div>
@@ -16,7 +19,7 @@ function Header() {
         <li>Contact</li>
       </nav>
       <div className="mobile">
-        <Burger />
+        <BurgerIcon />
       </div>
     </header>
   )
